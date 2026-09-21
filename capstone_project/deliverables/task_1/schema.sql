@@ -1,0 +1,12 @@
+PRAGMA foreign_keys=ON;
+DROP TABLE IF EXISTS fact_portfolio_holdings; DROP TABLE IF EXISTS fact_investor_transactions; DROP TABLE IF EXISTS fact_scheme_performance; DROP TABLE IF EXISTS fact_benchmark; DROP TABLE IF EXISTS fact_folio_count; DROP TABLE IF EXISTS fact_monthly_sip; DROP TABLE IF EXISTS fact_aum_fund_house; DROP TABLE IF EXISTS fact_nav; DROP TABLE IF EXISTS dim_fund;
+CREATE TABLE dim_fund(amfi_code TEXT PRIMARY KEY,fund_house TEXT,scheme_name TEXT,category TEXT,sub_category TEXT,plan TEXT,benchmark TEXT,expense_ratio_pct REAL,risk_category TEXT,inception_date TEXT);
+CREATE TABLE fact_nav(date TEXT NOT NULL,amfi_code TEXT NOT NULL,nav REAL,PRIMARY KEY(date,amfi_code),FOREIGN KEY(amfi_code) REFERENCES dim_fund(amfi_code));
+CREATE TABLE fact_aum_fund_house(report_date TEXT,fund_house TEXT,aum_crore REAL);
+CREATE TABLE fact_monthly_sip(month TEXT PRIMARY KEY,sip_inflow_crore REAL,yoy_growth_pct REAL);
+CREATE TABLE fact_folio_count(month TEXT PRIMARY KEY,total_folios_crore REAL,equity_folios_crore REAL,debt_folios_crore REAL,hybrid_folios_crore REAL,others_folios_crore REAL);
+CREATE TABLE fact_scheme_performance(amfi_code TEXT PRIMARY KEY,return_1y_pct REAL,return_3y_pct REAL,return_5y_pct REAL,benchmark_return_pct REAL,alpha_pct REAL,beta REAL,sharpe REAL,sortino REAL,std_dev_pct REAL,max_drawdown_pct REAL,aum_crore REAL,expense_ratio_pct REAL,morningstar_rating REAL,risk_grade TEXT,FOREIGN KEY(amfi_code) REFERENCES dim_fund(amfi_code));
+CREATE TABLE fact_investor_transactions(transaction_id INTEGER PRIMARY KEY,investor_id TEXT,transaction_date TEXT,amfi_code TEXT,transaction_type TEXT,amount_inr REAL,state TEXT,city TEXT,city_tier TEXT,age_group TEXT,gender TEXT,annual_income_inr REAL,payment_mode TEXT,kyc_status TEXT,FOREIGN KEY(amfi_code) REFERENCES dim_fund(amfi_code));
+CREATE TABLE fact_portfolio_holdings(amfi_code TEXT,holding_name TEXT,sector TEXT,weight_pct REAL,holding_type TEXT,PRIMARY KEY(amfi_code,holding_name),FOREIGN KEY(amfi_code) REFERENCES dim_fund(amfi_code));
+CREATE TABLE fact_benchmark(date TEXT,index_name TEXT,close REAL,PRIMARY KEY(date,index_name));
+CREATE INDEX idx_nav_amfi_date ON fact_nav(amfi_code,date); CREATE INDEX idx_txn_investor ON fact_investor_transactions(investor_id); CREATE INDEX idx_holdings_amfi ON fact_portfolio_holdings(amfi_code);
