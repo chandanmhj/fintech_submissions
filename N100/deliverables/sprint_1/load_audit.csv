@@ -1,0 +1,13 @@
+table,source_file,rows_in,rows_out,rejected,critical_rejections
+companies,companies.xlsx,92,92,0,0
+profitandloss,profitandloss.xlsx,1263,1164,99,0
+balancesheet,balancesheet.xlsx,1220,1140,80,0
+cashflow,cashflow.xlsx,1152,1063,89,0
+analysis,analysis.xlsx,20,16,4,0
+documents,documents.xlsx,1585,1457,128,0
+prosandcons,prosandcons.xlsx,16,14,2,0
+sectors,sectors.xlsx,92,92,0,0
+stock_prices,stock_prices.xlsx,5520,5520,0,0
+market_cap,market_cap.xlsx,552,552,0,0
+financial_ratios,financial_ratios.xlsx,1184,1160,24,0
+peer_groups,peer_groups.xlsx,56,56,0,0

@@ -1,0 +1,4 @@
+company_id,year,roe_manual_pct,roe_database_pct,roe_difference_pct_points,revenue_start_year,revenue_end_year,revenue_start_cr,revenue_end_cr,cagr_years,revenue_cagr_manual_pct,revenue_cagr_database_pct,revenue_cagr_difference_pct_points,status
+ABB,2024-03,20.6881,20.6881,0.0,2020-03,2024-03,6110.5,12332.2,4,19.2421,19.2421,0.0,PASS
+ADANIENSOL,2024-03,8.4038,8.4038,0.0,2020-03,2024-03,3691.7,13607.1,4,38.5347,38.5347,0.0,PASS
+ADANIENT,2024-03,11.4826,11.4826,0.0,2020-03,2024-03,1879.7,101567.3,4,166.4198,166.4198,0.0,PASS

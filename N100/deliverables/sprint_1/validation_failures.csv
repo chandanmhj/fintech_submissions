@@ -1,0 +1,337 @@
+rule_id,rule_name,severity,table,row,company_id,year,message
+DQ-06,Positive Sales,WARNING,profitandloss,13.0,ADANIENSOL,2014-03,sales <= 0
+DQ-05,OPM Cross-Check,WARNING,profitandloss,23.0,ADANIENSOL,2024-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,26.0,ADANIENT,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,38.0,ADANIGREEN,2017-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,39.0,ADANIGREEN,2018-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,40.0,ADANIGREEN,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,74.0,ADANIPOWER,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,76.0,ADANIPOWER,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,77.0,ADANIPOWER,2017-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,83.0,ADANIPOWER,2023-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,92.0,AMBUJACEM,2018-12,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,104.0,APOLLOHOSP,2018-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,146.0,AXISBANK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,147.0,AXISBANK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,148.0,AXISBANK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,149.0,AXISBANK,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,150.0,AXISBANK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,151.0,AXISBANK,2018-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,151.0,AXISBANK,2018-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,152.0,AXISBANK,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,153.0,AXISBANK,2020-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,153.0,AXISBANK,2020-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,154.0,AXISBANK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,155.0,AXISBANK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,156.0,AXISBANK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,157.0,AXISBANK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,158.0,AXISBANK,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,185.0,BAJFINANCE,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,186.0,BAJFINANCE,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,187.0,BAJFINANCE,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,188.0,BAJFINANCE,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,189.0,BAJFINANCE,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,190.0,BAJFINANCE,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,191.0,BAJFINANCE,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,192.0,BAJFINANCE,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,193.0,BAJFINANCE,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,194.0,BAJFINANCE,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,195.0,BAJFINANCE,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,196.0,BANKBARODA,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,197.0,BANKBARODA,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,198.0,BANKBARODA,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,199.0,BANKBARODA,2016-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,199.0,BANKBARODA,2016-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,200.0,BANKBARODA,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,201.0,BANKBARODA,2018-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,201.0,BANKBARODA,2018-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,202.0,BANKBARODA,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,203.0,BANKBARODA,2020-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,203.0,BANKBARODA,2020-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,204.0,BANKBARODA,2021-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,204.0,BANKBARODA,2021-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,205.0,BANKBARODA,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,206.0,BANKBARODA,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,207.0,BANKBARODA,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,208.0,BANKBARODA,2025-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,210.0,BHARTIARTL,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,215.0,BHARTIARTL,2019-03,tax percentage outside 0-60
+DQ-12,Dividend Payout Cap,WARNING,profitandloss,215.0,BHARTIARTL,2019-03,dividend payout > 200%
+DQ-11,Tax Rate Range,WARNING,profitandloss,216.0,BHARTIARTL,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,217.0,BHARTIARTL,2021-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,238.0,BHEL,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,240.0,BHEL,2018-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,242.0,BHEL,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,243.0,BHEL,2021-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,246.0,BHEL,2024-03,tax percentage outside 0-60
+DQ-12,Dividend Payout Cap,WARNING,profitandloss,282.0,BRITANNIA,2021-03,dividend payout > 200%
+DQ-05,OPM Cross-Check,WARNING,profitandloss,287.0,CANBK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,288.0,CANBK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,289.0,CANBK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,290.0,CANBK,2016-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,290.0,CANBK,2016-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,291.0,CANBK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,292.0,CANBK,2018-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,292.0,CANBK,2018-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,293.0,CANBK,2019-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,293.0,CANBK,2019-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,294.0,CANBK,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,295.0,CANBK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,296.0,CANBK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,297.0,CANBK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,298.0,CANBK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,299.0,CANBK,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,300.0,CHOLAFIN,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,301.0,CHOLAFIN,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,302.0,CHOLAFIN,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,303.0,CHOLAFIN,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,304.0,CHOLAFIN,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,305.0,CHOLAFIN,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,306.0,CHOLAFIN,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,307.0,CHOLAFIN,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,308.0,CHOLAFIN,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,309.0,CHOLAFIN,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,310.0,CHOLAFIN,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,311.0,CHOLAFIN,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,312.0,CHOLAFIN,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,313.0,CIPLA,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,314.0,CIPLA,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,315.0,CIPLA,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,316.0,CIPLA,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,317.0,CIPLA,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,318.0,CIPLA,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,319.0,CIPLA,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,320.0,CIPLA,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,321.0,CIPLA,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,322.0,CIPLA,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,323.0,CIPLA,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,324.0,CIPLA,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,325.0,CIPLA,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,326.0,COALINDIA,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,327.0,COALINDIA,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,328.0,COALINDIA,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,329.0,COALINDIA,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,330.0,COALINDIA,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,331.0,COALINDIA,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,332.0,COALINDIA,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,333.0,COALINDIA,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,334.0,COALINDIA,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,335.0,COALINDIA,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,336.0,COALINDIA,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,337.0,COALINDIA,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,338.0,COALINDIA,2025-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,366.0,DLF,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,372.0,DLF,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,398.0,DRREDDY,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,436.0,GODREJCP,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,441.0,GODREJCP,2024-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,450.0,GRASIM,2020-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,495.0,HDFCBANK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,496.0,HDFCBANK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,497.0,HDFCBANK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,498.0,HDFCBANK,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,499.0,HDFCBANK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,500.0,HDFCBANK,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,501.0,HDFCBANK,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,502.0,HDFCBANK,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,503.0,HDFCBANK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,504.0,HDFCBANK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,505.0,HDFCBANK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,506.0,HDFCBANK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,507.0,HDFCBANK,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,508.0,HDFCLIFE,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,509.0,HDFCLIFE,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,510.0,HDFCLIFE,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,511.0,HDFCLIFE,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,512.0,HDFCLIFE,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,513.0,HDFCLIFE,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,514.0,HDFCLIFE,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,515.0,HDFCLIFE,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,516.0,HDFCLIFE,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,517.0,HDFCLIFE,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,518.0,HDFCLIFE,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,519.0,HDFCLIFE,2024-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,519.0,HDFCLIFE,2024-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,520.0,HDFCLIFE,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,521.0,HEROMOTOCO,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,522.0,HEROMOTOCO,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,523.0,HEROMOTOCO,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,524.0,HEROMOTOCO,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,525.0,HEROMOTOCO,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,526.0,HEROMOTOCO,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,527.0,HEROMOTOCO,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,528.0,HEROMOTOCO,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,529.0,HEROMOTOCO,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,530.0,HEROMOTOCO,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,531.0,HEROMOTOCO,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,532.0,HEROMOTOCO,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,533.0,HINDALCO,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,534.0,HINDALCO,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,535.0,HINDALCO,2015-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,535.0,HINDALCO,2015-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,536.0,HINDALCO,2016-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,536.0,HINDALCO,2016-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,537.0,HINDALCO,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,538.0,HINDALCO,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,539.0,HINDALCO,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,540.0,HINDALCO,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,541.0,HINDALCO,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,542.0,HINDALCO,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,543.0,HINDALCO,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,544.0,HINDALCO,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,545.0,HINDALCO,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,546.0,HINDUNILVR,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,547.0,HINDUNILVR,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,548.0,HINDUNILVR,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,549.0,HINDUNILVR,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,550.0,HINDUNILVR,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,551.0,HINDUNILVR,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,552.0,HINDUNILVR,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,553.0,HINDUNILVR,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,554.0,HINDUNILVR,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,555.0,HINDUNILVR,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,556.0,HINDUNILVR,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,557.0,HINDUNILVR,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,558.0,HINDUNILVR,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,559.0,ICICIBANK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,560.0,ICICIBANK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,561.0,ICICIBANK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,562.0,ICICIBANK,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,563.0,ICICIBANK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,564.0,ICICIBANK,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,565.0,ICICIBANK,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,566.0,ICICIBANK,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,567.0,ICICIBANK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,568.0,ICICIBANK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,569.0,ICICIBANK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,570.0,ICICIBANK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,571.0,ICICIBANK,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,572.0,ICICIGI,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,573.0,ICICIGI,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,574.0,ICICIGI,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,575.0,ICICIGI,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,576.0,ICICIGI,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,577.0,ICICIGI,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,578.0,ICICIGI,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,579.0,ICICIGI,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,580.0,ICICIGI,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,581.0,ICICIGI,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,582.0,ICICIGI,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,583.0,ICICIGI,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,584.0,ICICIGI,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,585.0,ICICIPRULI,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,586.0,ICICIPRULI,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,587.0,ICICIPRULI,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,588.0,ICICIPRULI,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,589.0,ICICIPRULI,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,590.0,ICICIPRULI,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,591.0,ICICIPRULI,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,592.0,ICICIPRULI,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,593.0,ICICIPRULI,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,594.0,ICICIPRULI,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,595.0,ICICIPRULI,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,596.0,ICICIPRULI,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,597.0,ICICIPRULI,2025-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,598.0,INDUSINDBK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,599.0,INDUSINDBK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,600.0,INDUSINDBK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,601.0,INDUSINDBK,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,602.0,INDUSINDBK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,603.0,INDUSINDBK,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,604.0,INDUSINDBK,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,605.0,INDUSINDBK,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,606.0,INDUSINDBK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,607.0,INDUSINDBK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,608.0,INDUSINDBK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,609.0,INDUSINDBK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,610.0,INDUSINDBK,2025-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,631.0,IOC,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,648.0,IRFC,2013-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,676.0,JINDALSTEL,2015-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,677.0,JINDALSTEL,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,678.0,JINDALSTEL,2017-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,679.0,JINDALSTEL,2018-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,680.0,JINDALSTEL,2019-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,687.0,JIOFIN,2023-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,695.0,JSWENERGY,2018-03,tax percentage outside 0-60
+DQ-14,EPS Sign Consistency,WARNING,profitandloss,695.0,JSWENERGY,2018-03,EPS sign inconsistent with profit
+DQ-11,Tax Rate Range,WARNING,profitandloss,704.0,JSWSTEEL,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,706.0,JSWSTEEL,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,710.0,JSWSTEEL,2020-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,716.0,KOTAKBANK,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,717.0,KOTAKBANK,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,718.0,KOTAKBANK,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,719.0,KOTAKBANK,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,720.0,KOTAKBANK,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,721.0,KOTAKBANK,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,722.0,KOTAKBANK,2019-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,723.0,KOTAKBANK,2020-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,724.0,KOTAKBANK,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,725.0,KOTAKBANK,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,726.0,KOTAKBANK,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,727.0,KOTAKBANK,2024-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,728.0,KOTAKBANK,2025-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,729.0,LICI,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,730.0,LICI,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,731.0,LICI,2021-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,732.0,LICI,2022-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,744.0,LODHA,2021-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,746.0,LODHA,2023-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,782.0,M&M,2020-03,tax percentage outside 0-60
+DQ-12,Dividend Payout Cap,WARNING,profitandloss,782.0,M&M,2020-03,dividend payout > 200%
+DQ-11,Tax Rate Range,WARNING,profitandloss,808.0,MOTHERSON,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,816.0,NAUKRI,2015-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,818.0,NAUKRI,2017-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,821.0,NAUKRI,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,824.0,NAUKRI,2023-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,847.0,NHPC,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,849.0,NHPC,2022-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,856.0,NTPC,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,859.0,NTPC,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,908.0,PNB,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,910.0,PNB,2018-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,911.0,PNB,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,924.0,POWERGRID,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,974.0,SBIN,2017-03,tax percentage outside 0-60
+DQ-12,Dividend Payout Cap,WARNING,profitandloss,974.0,SBIN,2017-03,dividend payout > 200%
+DQ-11,Tax Rate Range,WARNING,profitandloss,975.0,SBIN,2018-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,985.0,SHREECEM,2015-06,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1032.0,SUNPHARMA,2024-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,1037.0,TATACONSUM,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1053.0,TATAMOTORS,2019-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1058.0,TATAMOTORS,2024-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1060.0,TATAPOWER,2013-03,tax percentage outside 0-60
+DQ-14,EPS Sign Consistency,WARNING,profitandloss,1060.0,TATAPOWER,2013-03,EPS sign inconsistent with profit
+DQ-11,Tax Rate Range,WARNING,profitandloss,1061.0,TATAPOWER,2014-03,tax percentage outside 0-60
+DQ-14,EPS Sign Consistency,WARNING,profitandloss,1061.0,TATAPOWER,2014-03,EPS sign inconsistent with profit
+DQ-11,Tax Rate Range,WARNING,profitandloss,1062.0,TATAPOWER,2015-03,tax percentage outside 0-60
+DQ-12,Dividend Payout Cap,WARNING,profitandloss,1062.0,TATAPOWER,2015-03,dividend payout > 200%
+DQ-11,Tax Rate Range,WARNING,profitandloss,1073.0,TATASTEEL,2013-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1075.0,TATASTEEL,2015-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1076.0,TATASTEEL,2016-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1077.0,TATASTEEL,2017-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1080.0,TATASTEEL,2020-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1084.0,TATASTEEL,2024-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1138.0,TRENT,2013-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1139.0,TRENT,2014-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1146.0,TRENT,2021-03,tax percentage outside 0-60
+DQ-11,Tax Rate Range,WARNING,profitandloss,1147.0,TRENT,2022-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1263.0,INDIGO,2013-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1264.0,INDIGO,2014-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1265.0,INDIGO,2015-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1266.0,INDIGO,2016-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1267.0,INDIGO,2017-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1268.0,INDIGO,2018-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1269.0,INDIGO,2019-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,1269.0,INDIGO,2019-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1270.0,INDIGO,2020-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,1270.0,INDIGO,2020-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1271.0,INDIGO,2021-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1272.0,INDIGO,2022-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1273.0,INDIGO,2023-03,OPM mismatch
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1274.0,INDIGO,2024-03,OPM mismatch
+DQ-11,Tax Rate Range,WARNING,profitandloss,1274.0,INDIGO,2024-03,tax percentage outside 0-60
+DQ-05,OPM Cross-Check,WARNING,profitandloss,1275.0,INDIGO,2025-03,OPM mismatch
+DQ-09,Net Cash Check,WARNING,cashflow,1095.0,TVSMOTOR,2022-03,net cash differs from components by >10
+DQ-16,Coverage Check,WARNING,coverage,,JIOFIN,,"coverage below 5 years: [3, 3, 2]"
+DQ-16,Coverage Check,WARNING,coverage,,SBIN,,"coverage below 5 years: [13, 0, 12]"
